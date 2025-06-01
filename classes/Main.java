@@ -1,4 +1,4 @@
-package src.classes;
+package classes;
 
 public class Main {
   public static void main(String[] args) {
@@ -10,5 +10,6 @@ public class Main {
     test1.setColor("Purple");
 
     System.out.println(test1.getColor());
+    System.out.println(test2.getColor());
   }
 }

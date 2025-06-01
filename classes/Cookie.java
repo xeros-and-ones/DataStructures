@@ -1,4 +1,4 @@
-package src.classes;
+package classes;
 
 public class Cookie {
   public Cookie(String color) {
@@ -6,8 +6,6 @@ public class Cookie {
   }
 
   private String color;
-
-  // Main Method
 
   public String getColor() {
     return color;
