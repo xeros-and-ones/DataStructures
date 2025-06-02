@@ -8,9 +8,13 @@ public class Main {
     newLinkedList.append(20);
     newLinkedList.prepend(1);
     newLinkedList.printList();
-
+    System.out.println("----------------");
     newLinkedList.set(2, 99);
     newLinkedList.insert(3, 1);
+    newLinkedList.printList();
+    System.out.println("----------------");
+
+    newLinkedList.reverse();
     newLinkedList.printList();
 
     newLinkedList.getHead();
