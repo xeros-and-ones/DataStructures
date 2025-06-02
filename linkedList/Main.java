@@ -7,7 +7,10 @@ public class Main {
     newLinkedList.append(10);
     newLinkedList.append(20);
     newLinkedList.prepend(1);
-    System.out.println(newLinkedList.popFirst().value + " Removed");
+    newLinkedList.printList();
+
+    newLinkedList.set(2, 99);
+    newLinkedList.insert(3, 1);
     newLinkedList.printList();
 
     newLinkedList.getHead();
