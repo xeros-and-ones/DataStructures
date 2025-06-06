@@ -40,6 +40,16 @@ public class DoublyLinkedList {
         length++;
     }
 
+    public void append(int... values) {
+        if (values == null) {
+            return;
+        }
+        for (int value : values) {
+            append(value);
+        }
+
+    }
+
     public void prepend(int value) {
         Node prependNode = new Node(value);
 

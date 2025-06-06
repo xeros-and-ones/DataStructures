@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c417c2a1-c79a-468e-87e2-164a3308388d" name="Changes" comment="LinkedList remove and reverse Methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
