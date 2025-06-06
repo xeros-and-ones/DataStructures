@@ -1,24 +1,17 @@
 package linkedList;
 
 public class Main {
-  public static void main(String[] args) {
-    LinkedList newLinkedList = new LinkedList(4);
+    public static void main(String[] args) {
+        DoublyLinkedList list = new DoublyLinkedList(2);
 
-    newLinkedList.append(10);
-    newLinkedList.append(20);
-    newLinkedList.prepend(1);
-    newLinkedList.printList();
-    System.out.println("----------------");
-    newLinkedList.set(2, 99);
-    newLinkedList.insert(3, 1);
-    newLinkedList.printList();
-    System.out.println("----------------");
+        list.append(10);
+        list.append(7);
+        list.prepend(6);
+        list.insert(60, 2);
+        list.insert(1, 5);
+        list.remove(3);
+        list.printList();
+        System.out.println(list.get(0).value);
 
-    newLinkedList.reverse();
-    newLinkedList.printList();
-
-    newLinkedList.getHead();
-    newLinkedList.getTail();
-    newLinkedList.getLength();
-  }
+    }
 }
